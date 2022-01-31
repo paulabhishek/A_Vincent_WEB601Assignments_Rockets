@@ -30,7 +30,7 @@ outputRockets(id:number):string{
             <h2>Creator: ${this._items[id].creator}</h2>
             <img width="500" height="600" src ='${this._items[id].imgURL}' alt='${this._items[id].title}' />
             <h2>Type: ${this._items[id].type}</h2>
-            <h5>Description: ${this._items[id].description}</h5>`
+            <h4>Description: ${this._items[id].description}</h4>`
 
   }
 }
