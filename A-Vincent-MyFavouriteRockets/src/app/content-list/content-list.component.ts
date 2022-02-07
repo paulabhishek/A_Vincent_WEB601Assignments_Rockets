@@ -55,7 +55,17 @@ export class ContentListComponent implements OnInit {
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg',
         type: 'Space vehicle',
         tags: ['Space vehicle', ' Russia', ' ISS', ' astronaut']
-      }]
+      },
+      {
+        id: 6,
+        title: 'Falcon heavy',
+        description: 'Falcon Heavy is a partially reusable heavy-lift launch vehicle designed and manufactured by SpaceX',
+        creator: 'SpaceX',
+        imgURL: 'https://cdn.vox-cdn.com/thumbor/txs3PZrOVo4_q-EGrNKPDkWAyog=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10142497/38583830575_eb67b89fa2_o.jpg',
+        type: 'Space vehicle',
+        tags: ['Space X', ' Elon musk', ' Rockets', ' Mars']
+      }
+    ]
   }
 
   ngOnInit(): void {
