@@ -11,14 +11,11 @@ export class ContentCardComponent implements OnInit {
   @Input() rockets?: Content;
 
 
-  constructor() {
-
-
-  }
+  constructor() {}
   outputRockets(){
     console.log(`
-    ID: " ${this.rockets?.id}
-    Title: " ${this.rockets?.title}
+    ID: ${this.rockets?.id}
+    Title: ${this.rockets?.title}
      `);
   }
 
