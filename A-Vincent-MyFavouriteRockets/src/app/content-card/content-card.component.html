@@ -1,4 +1,18 @@
-<p>content-card works!</p>
-<div [innerHTML]="rockets.outputRockets(0)" style="border: 5px solid grey; margin: 2px;"></div>
-<div [innerHTML]="rockets.outputRockets(1)" style="border: 5px solid grey; margin: 2px;"></div>
-<div [innerHTML]="rockets.outputRockets(2)" style="border: 5px solid grey; margin: 2px;"></div>
+
+<div class="container">
+  <h1 class="title"> Title:  {{ rockets?.title }}  </h1>
+  <div class="description">
+    <b>Description: </b>  {{ rockets?.description}}
+  </div> <br>
+  <div class="creator">
+    <b>Creator:</b>  {{ rockets?.creator }}
+  </div> <br>
+
+  <div><img class="img" *ngIf="rockets?.imgURL"  [src]='rockets.imgURL' (click)="outputRockets()"/></div>
+  <div class="type" *ngIf="rockets.type ">
+    <b>Type:</b>  {{ rockets?.type}}
+  </div> <br>
+  <div class="tags">
+    <b>Tags:</b>  {{ rockets?.tags }}
+  </div> <br>
+</div>
