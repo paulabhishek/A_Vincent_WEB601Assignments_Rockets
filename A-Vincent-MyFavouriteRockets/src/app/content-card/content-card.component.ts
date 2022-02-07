@@ -12,7 +12,7 @@ export class ContentCardComponent implements OnInit {
 
 
   constructor() {}
-  outputRockets(){
+  console(){
     console.log(`
     ID: ${this.rockets?.id}
     Title: ${this.rockets?.title}
