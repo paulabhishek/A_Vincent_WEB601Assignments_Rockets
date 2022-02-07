@@ -18,7 +18,7 @@ export class ContentListComponent implements OnInit {
       creator: 'Space X',
       imgURL: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/11/copernicus_sentinel-6_lifts_off_on_a_spacex_falcon_9_rocket/22340698-1-eng-GB/Copernicus_Sentinel-6_lifts_off_on_a_SpaceX_Falcon_9_rocket_pillars.jpg',
       type: 'Space vehicle',
-      tags: ['Space X', 'Elon musk', 'Rockets', 'Mars']
+      tags: ['Space X ', 'Elon musk ', 'Rockets ', 'Mars']
     },
       {
         id: 2,
