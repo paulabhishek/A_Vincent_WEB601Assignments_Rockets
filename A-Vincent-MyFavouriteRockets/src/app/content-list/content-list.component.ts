@@ -18,7 +18,7 @@ export class ContentListComponent implements OnInit {
       creator: 'Space X',
       imgURL: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/11/copernicus_sentinel-6_lifts_off_on_a_spacex_falcon_9_rocket/22340698-1-eng-GB/Copernicus_Sentinel-6_lifts_off_on_a_SpaceX_Falcon_9_rocket_pillars.jpg',
       type: 'Space vehicle',
-      tags: ['Space X ', 'Elon musk ', 'Rockets ', 'Mars']
+      tags: ['Space X', ' Elon musk', ' Rockets', ' Mars']
     },
       {
         id: 2,
@@ -27,7 +27,7 @@ export class ContentListComponent implements OnInit {
         creator: 'Space X',
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Starship_SN9_Launch_Pad.jpg/1200px-Starship_SN9_Launch_Pad.jpg',
         type: 'Space vehicle',
-        tags: ['Starship', 'Mars', 'Space', 'Moon']
+        tags: ['Starship', ' Mars', ' Space', ' Moon']
       },
       {
         id: 3,
@@ -36,7 +36,7 @@ export class ContentListComponent implements OnInit {
         creator: 'NASA',
         imgURL: 'https://www.nasa.gov/sites/default/files/thumbnails/image/rev27_b1b_crew_eus_cutaway_0.jpg',
         type: 'Space vehicle',
-        tags: ['Space vehicle', 'NASA', 'moon', 'astronaut']
+        tags: ['Space vehicle', ' NASA', ' moon', ' astronaut']
       },
       {
         id: 4,
@@ -45,7 +45,7 @@ export class ContentListComponent implements OnInit {
         creator: 'Blue Origin',
         imgURL: 'https://jundroo.blob.core.windows.net/simplerockets/files/2020/2/6/7ci8ol/UserView-3.jpg',
         type: 'Space vehicle',
-        tags: ['Space vehicle', 'Mars', 'New Glenn', 'Jeff']
+        tags: ['Space vehicle', ' Mars', ' New Glenn', ' Jeff']
       },
       {
         id: 5,
@@ -54,7 +54,7 @@ export class ContentListComponent implements OnInit {
         creator: 'Roscosmos',
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg',
         type: 'Space vehicle',
-        tags: ['Space vehicle', 'Russia', 'ISS', 'astronaut']
+        tags: ['Space vehicle', ' Russia', ' ISS', ' astronaut']
       }]
   }
 
