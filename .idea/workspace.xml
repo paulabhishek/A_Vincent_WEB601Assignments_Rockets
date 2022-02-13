@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" afterDir="false" />
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="changed json version to 0.03">
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +37,23 @@
       <option name="presentableId" value="Default" />
       <updated>1643575382638</updated>
       <workItem from="1643575386540" duration="53000" />
-      <workItem from="1644725141860" duration="946000" />
+      <workItem from="1644725141860" duration="1165000" />
     </task>
+    <task id="LOCAL-00001" summary="changed json version to 0.03">
+      <created>1644726192715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644726192715</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changed json version to 0.03">
+      <created>1644726352446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644726352446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +104,9 @@
         <entry key="ac15ab42-81bf-49dd-bb3b-22d9b73c288e" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed json version to 0.03" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed json version to 0.03" />
   </component>
 </project>
