@@ -71,7 +71,7 @@ export class ContentListComponent implements OnInit {
         description: 'Saturn V was an American human-rated super heavy-lift launch vehicle used by NASA between 1967 and 1973.',
         creator: 'Boeing (S-IC); North American (S-II); Douglas (S-IVB)',
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg',
-        type: 'Launch vehicle',
+        type: '',
         tags: ['Apollo', ' NASA', ' Rockets', ' Moon']
       }
     ]
