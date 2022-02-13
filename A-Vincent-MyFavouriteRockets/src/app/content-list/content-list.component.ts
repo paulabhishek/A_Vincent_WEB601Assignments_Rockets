@@ -62,7 +62,7 @@ export class ContentListComponent implements OnInit {
         description: 'Falcon Heavy is a partially reusable heavy-lift launch vehicle designed and manufactured by SpaceX',
         creator: 'SpaceX',
         imgURL: 'https://cdn.vox-cdn.com/thumbor/txs3PZrOVo4_q-EGrNKPDkWAyog=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10142497/38583830575_eb67b89fa2_o.jpg',
-        type: 'Launch vehicle',
+        type: '',
         tags: ['Space X', ' Elon musk', ' Rockets', ' Mars']
       },
       {
