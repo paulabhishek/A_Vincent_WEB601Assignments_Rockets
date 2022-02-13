@@ -17,7 +17,7 @@ export class ContentListComponent implements OnInit {
       description: 'First reusable rocket',
       creator: 'Space X',
       imgURL: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/11/copernicus_sentinel-6_lifts_off_on_a_spacex_falcon_9_rocket/22340698-1-eng-GB/Copernicus_Sentinel-6_lifts_off_on_a_SpaceX_Falcon_9_rocket_pillars.jpg',
-      type: 'Space vehicle',
+      type: 'booster',
       tags: ['Space X', ' Elon musk', ' Rockets', ' Mars']
     },
       {
@@ -26,7 +26,7 @@ export class ContentListComponent implements OnInit {
         description: 'The most powerful rocket',
         creator: 'Space X',
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Starship_SN9_Launch_Pad.jpg/1200px-Starship_SN9_Launch_Pad.jpg',
-        type: 'Space vehicle',
+        type: 'booster',
         tags: ['Starship', ' Mars', ' Space', ' Moon']
       },
       {
@@ -53,7 +53,7 @@ export class ContentListComponent implements OnInit {
         description: 'Soyuz is a family of expendable Russian and Soviet carrier rockets developed by OKB-1',
         creator: 'Roscosmos',
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg',
-        type: 'Space vehicle',
+        type: 'capsule',
         tags: ['Space vehicle', ' Russia', ' ISS', ' astronaut']
       },
       {
