@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="" />
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +26,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\1998v\OneDrive - St. Clair College\WEB601-22W-001 Javascript 5 22 Winter\Week 04\Assignment 03\Assignment-3\A-Vincent-MyFavouriteRockets\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -33,10 +39,57 @@
       <option name="presentableId" value="Default" />
       <updated>1643575382638</updated>
       <workItem from="1643575386540" duration="53000" />
+      <workItem from="1644725141860" duration="946000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="ac15ab42-81bf-49dd-bb3b-22d9b73c288e">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/1998v/OneDrive - St. Clair College/WEB601-22W-001 Javascript 5 22 Winter/Week 04/Assignment 03/Assignment-3/A-Vincent-MyFavouriteRockets" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="ac15ab42-81bf-49dd-bb3b-22d9b73c288e" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
 </project>
