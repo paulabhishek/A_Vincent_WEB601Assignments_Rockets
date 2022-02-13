@@ -35,7 +35,7 @@ export class ContentListComponent implements OnInit {
         description: 'The Space Launch System (abbreviated as SLS) is an American super heavy-lift expendable launch vehicle under development by NASA since 2011',
         creator: 'NASA',
         imgURL: 'https://www.nasa.gov/sites/default/files/thumbnails/image/rev27_b1b_crew_eus_cutaway_0.jpg',
-        type: 'Space vehicle',
+        type: 'Launch vehicle',
         tags: ['Space vehicle', ' NASA', ' moon', ' astronaut']
       },
       {
@@ -44,7 +44,7 @@ export class ContentListComponent implements OnInit {
         description: 'New Glenn is a heavy-lift orbital launch vehicle in development by Blue Origin',
         creator: 'Blue Origin',
         imgURL: 'https://jundroo.blob.core.windows.net/simplerockets/files/2020/2/6/7ci8ol/UserView-3.jpg',
-        type: 'Space vehicle',
+        type: 'Launch vehicle',
         tags: ['Space vehicle', ' Mars', ' New Glenn', ' Jeff']
       },
       {
@@ -53,7 +53,7 @@ export class ContentListComponent implements OnInit {
         description: 'Soyuz is a family of expendable Russian and Soviet carrier rockets developed by OKB-1',
         creator: 'Roscosmos',
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg',
-        type: 'capsule',
+        type: 'Capsule',
         tags: ['Space vehicle', ' Russia', ' ISS', ' astronaut']
       },
       {
@@ -62,8 +62,17 @@ export class ContentListComponent implements OnInit {
         description: 'Falcon Heavy is a partially reusable heavy-lift launch vehicle designed and manufactured by SpaceX',
         creator: 'SpaceX',
         imgURL: 'https://cdn.vox-cdn.com/thumbor/txs3PZrOVo4_q-EGrNKPDkWAyog=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10142497/38583830575_eb67b89fa2_o.jpg',
-        type: 'Space vehicle',
+        type: 'Launch vehicle',
         tags: ['Space X', ' Elon musk', ' Rockets', ' Mars']
+      },
+      {
+        id: 7,
+        title: 'Saturn V',
+        description: 'Saturn V was an American human-rated super heavy-lift launch vehicle used by NASA between 1967 and 1973.',
+        creator: 'Boeing (S-IC); North American (S-II); Douglas (S-IVB)',
+        imgURL: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg',
+        type: 'Launch vehicle',
+        tags: ['Apollo', ' NASA', ' Rockets', ' Moon']
       }
     ]
   }
