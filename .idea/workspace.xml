@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Altered HTML">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="search function added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-card/content-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-card/content-card.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
       <updated>1643575382638</updated>
       <workItem from="1643575386540" duration="53000" />
       <workItem from="1644725141860" duration="1165000" />
-      <workItem from="1644727774462" duration="12294000" />
+      <workItem from="1644727774462" duration="18594000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -119,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644798983473</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CSS added to cards">
+      <created>1644803012392</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644803012392</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +187,8 @@
     <MESSAGE value="created filterType pipe" />
     <MESSAGE value="pipe method complete" />
     <MESSAGE value="Altered HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Altered HTML" />
+    <MESSAGE value="CSS added to cards" />
+    <MESSAGE value="search function added" />
+    <option name="LAST_COMMIT_MESSAGE" value="search function added" />
   </component>
 </project>

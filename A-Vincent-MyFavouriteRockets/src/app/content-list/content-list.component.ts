@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Content} from "../helper-files/content-interface";
 
 @Component({
@@ -8,8 +8,8 @@ import {Content} from "../helper-files/content-interface";
 })
 export class ContentListComponent implements OnInit {
 
+  result?:string;
   rockets: Content[];
-
   constructor() {
     this.rockets=[{
       id: 1,
@@ -77,7 +77,20 @@ export class ContentListComponent implements OnInit {
     ]
   }
 
+
   ngOnInit(): void {
+  }
+  titleFilter(input: string): any{
+    for (let i=0; i<=this.rockets.length; i++ ){
+      if(this.rockets[i].title == input){
+        this.result = "Found";
+      }
+      else
+      {
+        this.result = "Not Found";
+      }
+
+    }
   }
 
 }
