@@ -3,14 +3,25 @@
 <!--                  [rockets]="item" [class.is-first]="isFirst" ></app-content-card>-->
 
 
-<app-content-card *ngFor="let item of rockets | filterType : '';
-first as isFirst" [rockets]="item" [class.is-first]="isFirst"></app-content-card>
+<app-content-card
+  *ngFor="let item of rockets | filterType: ''; first as isFirst"
+  [rockets]="item"
+  [class.is-first]="isFirst"
+></app-content-card>
+<app-content-card
+  *ngFor="let item of rockets | filterType: 'booster'; first as isFirst"
+  [rockets]="item"
+  [class.is-first]="isFirst"
+></app-content-card>
 
-<app-content-card *ngFor="let item of rockets | filterType : 'booster';
-first as isFirst" [rockets]="item" [class.is-first]="isFirst"></app-content-card>
+<app-content-card
+  *ngFor="let item of rockets | filterType: 'Launch vehicle'; first as isFirst"
+  [rockets]="item"
+  [class.is-first]="isFirst"
+></app-content-card>
 
-<app-content-card *ngFor="let item of rockets | filterType : 'Launch vehicle';
-first as isFirst" [rockets]="item" [class.is-first]="isFirst"></app-content-card>
-
-<app-content-card *ngFor="let item of rockets | filterType : 'Capsule';
-first as isFirst" [rockets]="item" [class.is-first]="isFirst"></app-content-card>
+<app-content-card
+  *ngFor="let item of rockets | filterType: 'Capsule'; first as isFirst"
+  [rockets]="item"
+  [class.is-first]="isFirst"
+></app-content-card>
