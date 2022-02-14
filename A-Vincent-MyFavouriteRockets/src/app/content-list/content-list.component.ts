@@ -98,7 +98,6 @@ export class ContentListComponent implements OnInit {
         this.result = 'Not Found';
         console.log(false);
       }
-
     }
   }
 
