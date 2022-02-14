@@ -81,13 +81,22 @@ export class ContentListComponent implements OnInit {
   ngOnInit(): void {
   }
   titleFilter(input: string): any{
-    for (let i=0; i<=this.rockets.length; i++ ){
-      if(this.rockets[i].title == input){
-        this.result = "Found";
+    //console.log(input);
+    for (let i=0; i<=7; i++ ){
+      // console.log(typeof(this.rockets[i].title));
+      console.log(this.rockets[5].title);
+      console.log(i);
+      if( this.rockets[i].title == input){
+        console.log(i);
+        console.log(input);
+        this.result = 'Found';
+        return this.result;
+        //console.log(true);
       }
       else
       {
-        this.result = "Not Found";
+        this.result = 'Not Found';
+        console.log(false);
       }
 
     }
