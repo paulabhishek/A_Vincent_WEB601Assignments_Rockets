@@ -8,7 +8,7 @@
   <input type="text" placeholder="Enter title" #searchBox>
   <button (click)=titleFilter(searchBox.value)>Submit</button>
   <p *ngIf="result == 'Found'" class="found">{{ result }}</p>
-  <p *ngIf="result == 'Not Found'" class="not-found">{{ result }}</p>
+  <p *ngIf="result == 'Not Found'" class="not-found">{{ result }} </p>
 </div>
 
 
