@@ -5,32 +5,29 @@ import { Directive, ElementRef, Input, HostListener } from '@angular/core';
 })
 export class HoverAffectDirective {
   @Input() line?: string;
+  @Input() weight?: string;
 
 
   constructor(private e:ElementRef) { }
+  ngOnInit(): void {}
 
-  @HostListener('mouseenter') onMouseEnter(){
-    // if(this.style == "bold"){
-    //   this.e.nativeElement.style.textDecoration="bold";
-    // }
-    // else if(this.style == "underline"){
-    //   this.e.nativeElement.style.textDecoration="underline";
-    // }
-    // else {
-    //   this.e.nativeElement.style.borderColor = 'black';
-    //   this.e.nativeElement.style.borderWidth="3px";
-    // }
-    this.underlineElement(this.line);
+  @HostListener('mouseenter') onMouseEnter() {
+    if (this.line == "underline") {
+      this.underlineElement(this.line);
+    }
+    else if(this.weight == "bold"){
+      this.boldElement(this.weight);
+    }
+
   }
 
-  // @HostListener('mouseleave') onMouseLeave(){
-  //   this.e.nativeElement.removeAttribute('style');
-  // }
-  // ngOnInit() {
-  //   this.e.nativeElement.style.backgroundColor = this.line;
-  // }
+  private underlineElement(effect?: string): void {
+    this.e.nativeElement.style.textDecoration = effect;
+  }
+  private boldElement(effect?: string): void {
+    this.e.nativeElement.style.fontWeight = effect;
+  }
+
 
 
 }
-
-
