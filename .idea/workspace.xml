@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="fixed search function issue">
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" afterDir="false" />
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Removed image URL and added default image">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-card/content-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-card/content-card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\1998v\OneDrive - St. Clair College\WEB601-22W-001 Javascript 5 22 Winter\Week 04\Assignment 03\A_Vincent_WEB601Assignments_Rockets\A-Vincent-MyFavouriteRockets\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\1998v\OneDrive - St. Clair College\WEB601-22W-001 Javascript 5 22 Winter\Week 05\Assignment 04\Assignment-4\A-Vincent-MyFavouriteRockets\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -41,7 +44,8 @@
       <workItem from="1644727774462" duration="24424000" />
       <workItem from="1644855068933" duration="2534000" />
       <workItem from="1645309047968" duration="51000" />
-      <workItem from="1645332291542" duration="207000" />
+      <workItem from="1645332291542" duration="1120000" />
+      <workItem from="1645395426062" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -155,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644815926032</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changed version">
+      <created>1645332513571</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645332513571</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +228,8 @@
     <MESSAGE value="CSS added to cards" />
     <MESSAGE value="search function added" />
     <MESSAGE value="fixed search function issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed search function issue" />
+    <MESSAGE value="changed version" />
+    <MESSAGE value="Removed image URL and added default image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed image URL and added default image" />
   </component>
 </project>
