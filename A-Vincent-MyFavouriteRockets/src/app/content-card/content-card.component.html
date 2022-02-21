@@ -2,8 +2,8 @@
   <h1> Title:  {{ rockets?.title }}  </h1>
   <div> <b>Description: </b>  {{ rockets? rockets.description:"" }} </div><br>
   <div> <b>Creator:</b>  {{ rockets?.creator }}</div><br>
-  <div> <b *ngIf="rockets?.type" appHoverAffect style="underline">Type:</b>  {{ rockets?.type }}</div><br>
-  <div> <b *ngIf="rockets?.tags" appHoverAffect style="bold">Tags:</b>  {{ rockets?.tags }}</div><br>
+  <div appHoverAffect line="underline"> <b *ngIf="rockets?.type">Type:</b>  {{ rockets?.type }}</div><br>
+  <div> <b *ngIf="rockets?.tags">Tags:</b>  {{ rockets?.tags }}</div><br>
   <div> <img class="img" *ngIf="rockets?.imgURL" alt="rocket images" [src]='rockets?.imgURL' (click)="console()"/></div>
   <div> <img class="img" *ngIf="!rockets?.imgURL" alt="default-image" src="https://www.femtoscientific.com/wp-content/uploads/2014/12/default_image_01.png" (click)="console()"/></div>
 
