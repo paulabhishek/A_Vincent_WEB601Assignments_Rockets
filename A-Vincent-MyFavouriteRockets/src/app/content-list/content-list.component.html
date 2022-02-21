@@ -16,7 +16,7 @@
 <app-content-card class="noType"
   *ngFor="let item of rockets | filterType: ''; first as isFirst"
   [rockets]="item"
-  [class.is-first]="isFirst"
+  [class.is-first]="isFirst" appHoverAffect border ="10px solid rgb(12, 145, 155)"
 ></app-content-card>
 <app-content-card class="booster"
   *ngFor="let item of rockets | filterType: 'booster'; first as isFirst"

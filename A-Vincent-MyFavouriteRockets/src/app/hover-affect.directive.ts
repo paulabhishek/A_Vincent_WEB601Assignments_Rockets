@@ -18,8 +18,9 @@ export class HoverAffectDirective {
     else if(this.weight == "bold"){
       this.boldElement(this.weight);
     }
-    else{
-      this.e.nativeElement.style.borderWidth = '5px';
+    else if(this.border == "10px solid rgb(12, 145, 155)"){
+      this.borderElement(this.border);
+      //this.e.nativeElement.style.borderWidth = '5px';
     }
   }
 
@@ -31,7 +32,7 @@ export class HoverAffectDirective {
     this.e.nativeElement.style.fontWeight = effect;
   }
   private borderElement(effect?: string): void {
-    this.e.nativeElement.style.fontWeight = effect;
+    this.e.nativeElement.style.fontWeight = '10px solid rgb(12, 145, 155)';
   }
 
   @HostListener('mouseleave') onMouseLeave(){
