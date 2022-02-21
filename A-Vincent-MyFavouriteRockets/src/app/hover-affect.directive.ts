@@ -8,8 +8,6 @@ export class HoverAffectDirective {
   @Input() weight?: string;
   @Input() border?: string;
 
-
-
   constructor(private e:ElementRef) { }
   ngOnInit(): void {}
 
@@ -21,7 +19,7 @@ export class HoverAffectDirective {
       this.boldElement(this.weight);
     }
     else{
-      this.borderElement(this.border);
+      this.e.nativeElement.style.borderWidth = '5px';
     }
   }
 
