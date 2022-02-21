@@ -26,7 +26,7 @@ export class HoverAffectDirective {
     this.e.nativeElement.removeAttribute('style');
   }
   ngOnInit() {
-    this.e.nativeElement.style.backgroundColor = this.e;
+    this.e.nativeElement.style.backgroundColor = this.style;
   }
 
 

@@ -62,7 +62,7 @@ export class ContentListComponent implements OnInit {
         description: 'Falcon Heavy is a partially reusable heavy-lift launch vehicle designed and manufactured by SpaceX',
         creator: 'SpaceX',
         imgURL: 'https://cdn.vox-cdn.com/thumbor/txs3PZrOVo4_q-EGrNKPDkWAyog=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10142497/38583830575_eb67b89fa2_o.jpg',
-        type: '',
+        type: 'Launch vehicle',
         tags: ['Space X', ' Elon musk', ' Rockets', ' Mars']
       },
       {
@@ -71,7 +71,7 @@ export class ContentListComponent implements OnInit {
         description: 'Saturn V was an American human-rated super heavy-lift launch vehicle used by NASA between 1967 and 1973.',
         creator: 'Boeing (S-IC); North American (S-II); Douglas (S-IVB)',
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg',
-        type: '',
+        type: 'Launch vehicle',
         tags: ['Apollo', ' NASA', ' Rockets', ' Moon']
       }
     ]
