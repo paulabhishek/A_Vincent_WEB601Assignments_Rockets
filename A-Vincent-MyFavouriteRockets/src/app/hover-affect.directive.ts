@@ -6,7 +6,7 @@ import { Directive, ElementRef, Input, HostListener } from '@angular/core';
 export class HoverAffectDirective {
   @Input() line?: string;
   @Input() weight?: string;
-  @Input() border?: string;
+  // @Input() border?: string;
 
   constructor(private e:ElementRef) { }
   ngOnInit(): void {}
@@ -18,10 +18,10 @@ export class HoverAffectDirective {
     else if(this.weight == "bold"){
       this.boldElement(this.weight);
     }
-    else if(this.border == "10px solid rgb(12, 145, 155)"){
-      this.borderElement(this.border);
-      //this.e.nativeElement.style.borderWidth = '5px';
-    }
+    // else if(this.border == "10px solid rgb(12, 145, 155)"){
+    //   this.borderElement(this.border);
+    //   //this.e.nativeElement.style.borderWidth = '5px';
+    // }
   }
 
 
@@ -31,14 +31,14 @@ export class HoverAffectDirective {
   private boldElement(effect?: string): void {
     this.e.nativeElement.style.fontWeight = effect;
   }
-  private borderElement(effect?: string): void {
-    this.e.nativeElement.style.fontWeight = '10px solid rgb(12, 145, 155)';
-  }
+  // private borderElement(effect?: string): void {
+  //   this.e.nativeElement.style.fontWeight = '10px solid rgb(12, 145, 155)';
+  // }
 
   @HostListener('mouseleave') onMouseLeave(){
     this.underlineElement('');
     this.boldElement('');
-    this.borderElement('');
+    // this.borderElement('');
 
   }
 
