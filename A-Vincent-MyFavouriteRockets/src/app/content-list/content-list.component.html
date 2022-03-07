@@ -12,6 +12,9 @@
   <p *ngIf="result == 'Not Found'" class="not-found">{{ result }} </p>
 </div>
 
+<!--<app-content-card class="all" *ngFor="let item of rockets; index as i; first as isFirst; last as isLast" [rockets]=item-->
+<!--                  [class.is-first]="isFirst" [class.is-last]="isLast" ></app-content-card>-->
+
 
 
 <app-content-card class="noType"
@@ -19,6 +22,8 @@
   [rockets]="item"
   [class.is-first]="isFirst"
 ></app-content-card>
+
+
 <app-content-card class="booster"
   *ngFor="let item of rockets | filterType: 'booster'; first as isFirst"
   [rockets]="item"

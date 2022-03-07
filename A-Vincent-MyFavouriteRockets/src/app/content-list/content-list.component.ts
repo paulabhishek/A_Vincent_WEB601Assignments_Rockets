@@ -101,4 +101,10 @@ export class ContentListComponent implements OnInit {
     }
   }
 
+    // addContent(fromChild: Content){
+    //   console.log("Old array Values: ", this.rockets);
+    //   this.rockets.push(fromChild);
+    //   this.rockets = [...this.rockets];
+    // }
+
 }
