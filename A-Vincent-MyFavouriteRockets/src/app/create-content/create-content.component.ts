@@ -69,7 +69,7 @@ export class CreateContentComponent implements OnInit {
 
     thePromise
       .then((success) => {
-        console.log("success");
+        console.log(success);
         this.Id.nativeElement.value = '';
         this.Title.nativeElement.value = '';
         this.Description.nativeElement.value = '';
@@ -81,6 +81,7 @@ export class CreateContentComponent implements OnInit {
       })
       .catch((fail: any) => {
         this.error = fail;
+        console.log(this.error);
       });
   }
 }
