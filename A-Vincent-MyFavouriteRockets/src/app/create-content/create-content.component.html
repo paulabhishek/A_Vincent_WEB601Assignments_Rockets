@@ -1,1 +1,27 @@
-<p>create-content works!</p>
+<div>
+  <div>
+    ID*: <input name="id" #id>
+  </div><br>
+  <div>
+    Title*: <input name="title" #title>
+  </div><br>
+  <div>
+    Description*: <input name="description" #description>
+  </div><br>
+  <div>
+    Creator*: <input name="creator" #creator>
+  </div><br>
+  <div>
+    Image URL*: <input name="image" #image>
+  </div><br>
+  <div>
+    Type: <input name="type" #type>
+  </div><br>
+  <div>
+    Tags: <input name="tags" #tags>
+  </div><br>
+  <div>
+    <button (click)="addRockets(id.value, title.value, description.value, creator.value, image.value, type.value, tags.value)" id="button"> Add rockets</button>
+  </div>
+</div>
+
