@@ -61,7 +61,7 @@ export class CreateContentComponent implements OnInit {
 
     let thePromise = new Promise((success, fail) => {
       if (this.testPass) {
-        success(' The addition is successful..');
+        success(' The addition is successful ' + title);
       } else {
         fail('The addition failed!');
       }
