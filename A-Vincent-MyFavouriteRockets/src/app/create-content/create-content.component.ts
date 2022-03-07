@@ -63,7 +63,7 @@ export class CreateContentComponent implements OnInit {
       if (this.testPass) {
         success(` The addition "${title}" is successful `);
       } else {
-        fail('The addition failed!');
+        fail('Failed to add content! ID, Title, Description, Creator and ImageURL is required');
       }
     });
 
