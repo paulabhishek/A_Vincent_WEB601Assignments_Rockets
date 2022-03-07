@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Bonus mark - adding border -nogo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-card/content-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-card/content-card.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="24QuxbfK4PlaaQKsK5pY8Dow5vZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\1998v\OneDrive - St. Clair College\WEB601-22W-001 Javascript 5 22 Winter\Week 05\Assignment 04\Assignment-4\A-Vincent-MyFavouriteRockets\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\1998v\OneDrive - St. Clair College\WEB601-22W-001 Javascript 5 22 Winter\Week 07\Assignment 05\Assignment-5\A-Vincent-MyFavouriteRockets\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -44,6 +46,7 @@
       <workItem from="1645309047968" duration="51000" />
       <workItem from="1645332291542" duration="1120000" />
       <workItem from="1645395426062" duration="13387000" />
+      <workItem from="1646610131577" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -292,7 +295,6 @@
         <entry key="ac15ab42-81bf-49dd-bb3b-22d9b73c288e" value="TOOL_WINDOW" />
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed json version to 0.03" />
