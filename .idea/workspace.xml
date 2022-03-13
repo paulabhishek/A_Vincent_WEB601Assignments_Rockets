@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Bonus mark - adding border -nogo">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="version number changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Assignment-4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -28,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\1998v\OneDrive - St. Clair College\WEB601-22W-001 Javascript 5 22 Winter\Week 05\Assignment 04\Assignment-4\A-Vincent-MyFavouriteRockets\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\1998v\OneDrive - St. Clair College\WEB601-22W-001 Javascript 5 22 Winter\Week 08\Assignment 06\Assignment-6\A-Vincent-MyFavouriteRockets\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,7 +55,7 @@
       <workItem from="1645395426062" duration="13387000" />
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
-      <workItem from="1647178072982" duration="705000" />
+      <workItem from="1647178072982" duration="2172000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -246,7 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645416334867</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="version number changed">
+      <created>1647180018856</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1647180018856</updated>
+    </task>
+    <task id="LOCAL-00030" summary="version number changed">
+      <created>1647180103103</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1647180103103</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +279,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Assignment-3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="TEXT_FILTER_SETTINGS">
                 <TextFilterSettings>
                   <option name="REGEX" value="true" />
@@ -322,6 +354,7 @@
     <MESSAGE value="onMouseEnter onMouseLeave functions issue fixed" />
     <MESSAGE value="Bonus mark - adding border" />
     <MESSAGE value="Bonus mark - adding border -nogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bonus mark - adding border -nogo" />
+    <MESSAGE value="version number changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="version number changed" />
   </component>
 </project>

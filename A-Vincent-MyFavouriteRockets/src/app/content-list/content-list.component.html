@@ -7,31 +7,31 @@
   <h1>Search by title</h1>
   <input type="text" placeholder="Enter title" #searchBox>
   <button (click)=titleFilter(searchBox.value)>Submit</button>
-  <p *ngIf="result == 'Not Found'" class="found">{{ result }}</p>
+  <p *ngIf="result == 'Found'" class="found">{{ result }}</p>
   <p *ngIf="result == 'Not Found'" class="not-found">{{ result }} </p>
 </div>
 
 
 
 <app-content-card class="noType"
-  *ngFor="let item of rockets | filterType: ''; first as isFirst"
-  [rockets]="item"
-  [class.is-first]="isFirst"
+                  *ngFor="let item of rockets | filterType: ''; first as isFirst"
+                  [rockets]="item"
+                  [class.is-first]="isFirst"
 ></app-content-card>
 <app-content-card class="booster"
-  *ngFor="let item of rockets | filterType: 'booster'; first as isFirst"
-  [rockets]="item"
-  [class.is-first]="isFirst"
+                  *ngFor="let item of rockets | filterType: 'booster'; first as isFirst"
+                  [rockets]="item"
+                  [class.is-first]="isFirst"
 ></app-content-card>
 
 <app-content-card class="launch_vehicle"
-  *ngFor="let item of rockets | filterType: 'Launch vehicle'; first as isFirst"
-  [rockets]="item"
-  [class.is-first]="isFirst"
+                  *ngFor="let item of rockets | filterType: 'Launch vehicle'; first as isFirst"
+                  [rockets]="item"
+                  [class.is-first]="isFirst"
 ></app-content-card>
 
 <app-content-card class="capsule"
-  *ngFor="let item of rockets | filterType: 'Capsule'; first as isFirst"
-  [rockets]="item"
-  [class.is-first]="isFirst"
+                  *ngFor="let item of rockets | filterType: 'Capsule'; first as isFirst"
+                  [rockets]="item"
+                  [class.is-first]="isFirst"
 ></app-content-card>

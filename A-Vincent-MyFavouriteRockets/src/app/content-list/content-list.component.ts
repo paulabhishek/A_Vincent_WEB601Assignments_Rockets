@@ -17,7 +17,7 @@ export class ContentListComponent implements OnInit {
       description: 'First reusable rocket',
       creator: 'Space X',
       // imgURL: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/11/copernicus_sentinel-6_lifts_off_on_a_spacex_falcon_9_rocket/22340698-1-eng-GB/Copernicus_Sentinel-6_lifts_off_on_a_SpaceX_Falcon_9_rocket_pillars.jpg',
-      type: 'Booster',
+      type: 'booster',
       tags: ['Space X', ' Elon musk', ' Rockets', ' Mars']
     },
       {
@@ -26,7 +26,7 @@ export class ContentListComponent implements OnInit {
         description: 'The most powerful rocket',
         creator: 'Space X',
         // imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Starship_SN9_Launch_Pad.jpg/1200px-Starship_SN9_Launch_Pad.jpg',
-        type: 'Booster',
+        type: 'booster',
         tags: ['Starship', ' Mars', ' Space', ' Moon']
       },
       {
@@ -62,7 +62,7 @@ export class ContentListComponent implements OnInit {
         description: 'Falcon Heavy is a partially reusable heavy-lift launch vehicle designed and manufactured by SpaceX',
         creator: 'SpaceX',
         imgURL: 'https://cdn.vox-cdn.com/thumbor/txs3PZrOVo4_q-EGrNKPDkWAyog=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10142497/38583830575_eb67b89fa2_o.jpg',
-        type: 'Launch vehicle',
+        type: '',
         tags: ['Space X', ' Elon musk', ' Rockets', ' Mars']
       },
       {
@@ -71,7 +71,7 @@ export class ContentListComponent implements OnInit {
         description: 'Saturn V was an American human-rated super heavy-lift launch vehicle used by NASA between 1967 and 1973.',
         creator: 'Boeing (S-IC); North American (S-II); Douglas (S-IVB)',
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg',
-        type: 'Launch vehicle',
+        type: '',
         tags: ['Apollo', ' NASA', ' Rockets', ' Moon']
       }
     ]
