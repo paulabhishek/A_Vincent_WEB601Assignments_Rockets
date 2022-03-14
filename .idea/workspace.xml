@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Message component and service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" afterDir="false" />
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="messages debugging">
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +58,7 @@
       <workItem from="1645395426062" duration="13387000" />
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
-      <workItem from="1647178072982" duration="16993000" />
+      <workItem from="1647178072982" duration="17080000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647227631102</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="messages debugging">
+      <created>1647228005648</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1647228005648</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,6 +427,7 @@
     <MESSAGE value="Content card" />
     <MESSAGE value="CSS box shadow" />
     <MESSAGE value="Message component and service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Message component and service" />
+    <MESSAGE value="messages debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="messages debugging" />
   </component>
 </project>
