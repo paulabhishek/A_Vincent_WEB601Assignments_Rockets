@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {Content} from "./helper-files/content-interface";
+import {RocketService} from "./services/rocket.service";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'A-Vincent-MyFavouriteRockets';
+  getIdContent?: Content;
+  constructor(private rocketService: RocketService ){}
+  ngOnInit(): void {}
+
+  btn(id:any) {
+    this.rocketService.getIdContent(id).subscribe((getContent: any) => this.getIdContent = getContent);
+  }
+
 }

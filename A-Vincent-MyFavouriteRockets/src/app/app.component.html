@@ -1,2 +1,6 @@
+<input placeholder="Enter Id Here" #id>
+<button (click)="btn(id.value)" class="button">Search</button>
+<app-content-card [rockets]="getIdContent"></app-content-card>
+
 
 <app-content-list></app-content-list>

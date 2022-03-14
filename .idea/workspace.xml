@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="fixed search issues">
-      <change afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/helper-files/contentDb.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" afterDir="false" />
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="created service and modified ContentList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <workItem from="1645395426062" duration="13387000" />
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
-      <workItem from="1647178072982" duration="7128000" />
+      <workItem from="1647178072982" duration="12883000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647181286543</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="created service and modified ContentList">
+      <created>1647218135851</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1647218135851</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +376,7 @@
     <MESSAGE value="Bonus mark - adding border -nogo" />
     <MESSAGE value="version number changed" />
     <MESSAGE value="fixed search issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed search issues" />
+    <MESSAGE value="created service and modified ContentList" />
+    <option name="LAST_COMMIT_MESSAGE" value="created service and modified ContentList" />
   </component>
 </project>

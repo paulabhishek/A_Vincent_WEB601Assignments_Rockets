@@ -9,11 +9,23 @@ import {Observable, of} from "rxjs";
 export class RocketService {
 
   constructor() { }
-  getContent(): Content[] {
-    return ROCKETS;
+  getContent(): Observable<Content[]> {
+    const rockets = of(ROCKETS);
+    return rockets;
   }
 
   getContentObs(): Observable<Content[]> { //async function
     return of(ROCKETS);
+  }
+
+  getIdContent(id: any): Observable<Content>{
+    const message = ROCKETS[id];
+    if (id < ROCKETS.length){
+      console.log("Success !",ROCKETS);
+    } else{
+      console.log("Failed !");
+      //this.DisplayError();
+    }
+    return of(ROCKETS[id]);
   }
 }
