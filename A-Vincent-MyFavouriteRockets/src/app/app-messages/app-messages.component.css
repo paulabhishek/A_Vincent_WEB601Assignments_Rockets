@@ -1,5 +1,6 @@
-.message{
+.message {
   border-style: dotted;
-  padding: 5px;
+  margin: 5px;
   background-color: rgb(116, 136, 156);
+  padding: 5px;
 }
