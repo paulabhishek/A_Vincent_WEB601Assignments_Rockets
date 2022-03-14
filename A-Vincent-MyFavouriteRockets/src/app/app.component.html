@@ -1,6 +1,6 @@
-<input placeholder="Enter Id Here" #id>
-<button (click)="btn(id.value)" class="button">Search</button>
-<app-content-card [rockets]="getIdContent"></app-content-card>
+<input placeholder="Search by ID" #id>
+<button (click)="btn(id.value)">Search</button>
+<app-content-card class="shadow" [rockets]="getIdContent"></app-content-card>
 
 
 <app-content-list></app-content-list>

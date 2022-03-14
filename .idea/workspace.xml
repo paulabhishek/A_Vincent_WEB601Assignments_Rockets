@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Content card">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="CSS box shadow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" afterDir="false" />
@@ -59,7 +59,7 @@
       <workItem from="1645395426062" duration="13387000" />
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
-      <workItem from="1647178072982" duration="13665000" />
+      <workItem from="1647178072982" duration="13742000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647224135825</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="CSS box shadow">
+      <created>1647224681491</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1647224681491</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,6 +391,7 @@
     <MESSAGE value="fixed search issues" />
     <MESSAGE value="created service and modified ContentList" />
     <MESSAGE value="Content card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content card" />
+    <MESSAGE value="CSS box shadow" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS box shadow" />
   </component>
 </project>
