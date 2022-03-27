@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="created database service, added input fields to html. used emitters to emit content-list">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="added new http service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +60,7 @@
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
       <workItem from="1647178072982" duration="19102000" />
-      <workItem from="1648399125094" duration="12169000" />
-    </task>
-    <task id="LOCAL-00001" summary="changed json version to 0.03">
-      <created>1644726192715</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1644726192715</updated>
+      <workItem from="1648399125094" duration="12715000" />
     </task>
     <task id="LOCAL-00002" summary="changed json version to 0.03">
       <created>1644726352446</created>
@@ -405,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648410534567</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="added new http service">
+      <created>1648413070805</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1648413070806</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="CSS added to cards" />
     <MESSAGE value="search function added" />
     <MESSAGE value="fixed search function issue" />
     <MESSAGE value="changed version" />
@@ -496,6 +495,7 @@
     <MESSAGE value="Created a new component called ModifyContentComponent. and Added the ModifyContentComponent to the top of the ContentList" />
     <MESSAGE value="Created service: InMemoryData" />
     <MESSAGE value="created database service, added input fields to html. used emitters to emit content-list" />
-    <option name="LAST_COMMIT_MESSAGE" value="created database service, added input fields to html. used emitters to emit content-list" />
+    <MESSAGE value="added new http service" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new http service" />
   </component>
 </project>

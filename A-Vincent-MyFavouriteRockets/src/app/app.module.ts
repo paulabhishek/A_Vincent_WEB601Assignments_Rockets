@@ -8,6 +8,8 @@ import { FilterTypePipe } from './filter-type.pipe';
 import { HoverAffectDirective } from './hover-affect.directive';
 import { AppMessagesComponent } from './app-messages/app-messages.component';
 import { ModifyContentComponentComponent } from './modify-content-component/modify-content-component.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { ModifyContentComponentComponent } from './modify-content-component/modi
     ModifyContentComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
