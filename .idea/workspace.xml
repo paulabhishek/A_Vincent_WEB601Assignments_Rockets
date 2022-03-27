@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="added new http service">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="fixing bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.module.ts" afterDir="false" />
     </list>
@@ -60,14 +60,7 @@
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
       <workItem from="1647178072982" duration="19102000" />
-      <workItem from="1648399125094" duration="12715000" />
-    </task>
-    <task id="LOCAL-00002" summary="changed json version to 0.03">
-      <created>1644726352446</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1644726352446</updated>
+      <workItem from="1648399125094" duration="13342000" />
     </task>
     <task id="LOCAL-00003" summary="changed json version to 0.03">
       <created>1644727823330</created>
@@ -405,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648413070806</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="fixing bugs">
+      <created>1648413355399</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1648413355399</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="search function added" />
     <MESSAGE value="fixed search function issue" />
     <MESSAGE value="changed version" />
     <MESSAGE value="Removed image URL and added default image" />
@@ -496,6 +495,7 @@
     <MESSAGE value="Created service: InMemoryData" />
     <MESSAGE value="created database service, added input fields to html. used emitters to emit content-list" />
     <MESSAGE value="added new http service" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new http service" />
+    <MESSAGE value="fixing bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing bugs" />
   </component>
 </project>
