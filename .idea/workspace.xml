@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="installing server">
-      <change afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/helper-files/content-interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/helper-files/content-interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/hover-affect.directive.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/hover-affect.directive.spec.ts" afterDir="false" />
-    </list>
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Created a new component called ModifyContentComponent. and Added the ModifyContentComponent to the top of the ContentList" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +57,7 @@
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
       <workItem from="1647178072982" duration="19102000" />
-      <workItem from="1648399125094" duration="2530000" />
+      <workItem from="1648399125094" duration="2846000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -391,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648400950407</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Created a new component called ModifyContentComponent. and Added the ModifyContentComponent to the top of the ContentList">
+      <created>1648401740809</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1648401740809</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +454,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created filterType pipe" />
     <MESSAGE value="pipe method complete" />
     <MESSAGE value="Altered HTML" />
     <MESSAGE value="CSS added to cards" />
@@ -482,6 +478,7 @@
     <MESSAGE value="Fixed all bugs" />
     <MESSAGE value="installing server&#10;npm install angular-in-memory-web-api --save" />
     <MESSAGE value="installing server" />
-    <option name="LAST_COMMIT_MESSAGE" value="installing server" />
+    <MESSAGE value="Created a new component called ModifyContentComponent. and Added the ModifyContentComponent to the top of the ContentList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a new component called ModifyContentComponent. and Added the ModifyContentComponent to the top of the ContentList" />
   </component>
 </project>
