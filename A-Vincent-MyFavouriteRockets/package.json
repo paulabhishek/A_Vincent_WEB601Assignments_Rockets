@@ -1,6 +1,6 @@
 {
   "name": "a-vincent-my-favourite-rockets",
-  "version": "0.0.7",
+  "version": "0.0.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
