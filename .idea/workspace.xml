@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Created service: InMemoryData">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="created database service, added input fields to html. used emitters to emit content-list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/in-memory-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/in-memory-data.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
       <workItem from="1647178072982" duration="19102000" />
-      <workItem from="1648399125094" duration="10071000" />
+      <workItem from="1648399125094" duration="12169000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -401,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648402106781</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="created database service, added input fields to html. used emitters to emit content-list">
+      <created>1648410534567</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1648410534567</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Altered HTML" />
     <MESSAGE value="CSS added to cards" />
     <MESSAGE value="search function added" />
     <MESSAGE value="fixed search function issue" />
@@ -492,6 +495,7 @@
     <MESSAGE value="installing server" />
     <MESSAGE value="Created a new component called ModifyContentComponent. and Added the ModifyContentComponent to the top of the ContentList" />
     <MESSAGE value="Created service: InMemoryData" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created service: InMemoryData" />
+    <MESSAGE value="created database service, added input fields to html. used emitters to emit content-list" />
+    <option name="LAST_COMMIT_MESSAGE" value="created database service, added input fields to html. used emitters to emit content-list" />
   </component>
 </project>
