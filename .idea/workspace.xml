@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Fixed all bugs">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="installing server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +57,7 @@
       <workItem from="1646669774778" duration="369000" />
       <workItem from="1647052752118" duration="597000" />
       <workItem from="1647178072982" duration="19102000" />
-      <workItem from="1648399125094" duration="1227000" />
+      <workItem from="1648399125094" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="changed json version to 0.03">
       <created>1644726192715</created>
@@ -364,7 +360,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647230003957</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="installing server&#10;npm install angular-in-memory-web-api --save">
+      <created>1648400405883</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1648400405884</updated>
+    </task>
+    <task id="LOCAL-00045" summary="installing server">
+      <created>1648400826128</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1648400826128</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,16 +437,9 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="ac15ab42-81bf-49dd-bb3b-22d9b73c288e" value="TOOL_WINDOW" />
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changed json version to 0.03" />
-    <MESSAGE value="Updated content items to use one of at least 2 different type values, as well as some with no type set." />
     <MESSAGE value="created filterType pipe" />
     <MESSAGE value="pipe method complete" />
     <MESSAGE value="Altered HTML" />
@@ -460,6 +463,8 @@
     <MESSAGE value="Message component and service" />
     <MESSAGE value="messages debugging" />
     <MESSAGE value="Fixed all bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed all bugs" />
+    <MESSAGE value="installing server&#10;npm install angular-in-memory-web-api --save" />
+    <MESSAGE value="installing server" />
+    <option name="LAST_COMMIT_MESSAGE" value="installing server" />
   </component>
 </project>
