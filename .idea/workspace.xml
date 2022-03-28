@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="debugging" />
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Bonus">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,14 +61,7 @@
       <workItem from="1647052752118" duration="597000" />
       <workItem from="1647178072982" duration="19102000" />
       <workItem from="1648399125094" duration="13342000" />
-      <workItem from="1648418000981" duration="12837000" />
-    </task>
-    <task id="LOCAL-00006" summary="Updated content items to use one of at least 2 different type values, as well as some with no type set.">
-      <created>1644785010205</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1644785010205</updated>
+      <workItem from="1648418000981" duration="14584000" />
     </task>
     <task id="LOCAL-00007" summary="created filterType pipe">
       <created>1644793285646</created>
@@ -403,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648435261671</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Bonus">
+      <created>1648435755689</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1648435755689</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +472,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Removed image URL and added default image" />
     <MESSAGE value="Created directive Hover-Affect" />
     <MESSAGE value="Added directives to tag and type" />
     <MESSAGE value="Added directives to tag and type - fixed bugs" />
@@ -494,6 +496,7 @@
     <MESSAGE value="fixing bugs" />
     <MESSAGE value="added code to add content to the content list" />
     <MESSAGE value="debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="debugging" />
+    <MESSAGE value="Bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bonus" />
   </component>
 </project>
