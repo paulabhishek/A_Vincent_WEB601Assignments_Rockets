@@ -1,5 +1,7 @@
 
-
+<label for="id" >ID: </label>
+<input id="id" name="id" type="text" #id>
+<br><br>
 <label for="title" >Title: </label>
 <input id="title" name="title" type="text" #title>
 <br><br>
@@ -18,4 +20,5 @@
 <label for="imgURL">Image URL: </label>
 <input type="text" id="imgURL" name="imgURL" #imgURL>
 <br><br>
-<button (click)="addRocket(title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" type="reset">Add content</button>
+<button (click)="addRocket(title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" type="button">Add content</button><br><br>
+<button (click)="updateRocket(id.value, title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" type="button">Update content</button> (Should be used only when ID field is entered)

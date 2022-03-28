@@ -1,5 +1,6 @@
-import {Component, EventEmitter, OnInit, Output, Input} from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {Content} from "../helper-files/content-interface";
+import { MessagesService } from "../services/messages.service";
 
 
 @Component({
@@ -11,7 +12,7 @@ export class ModifyContentComponentComponent implements OnInit {
   @Output() newRocketEvent: EventEmitter<Content> = new EventEmitter<Content>();
   @Output() updateRocketEvent: EventEmitter<Content> = new EventEmitter<Content>();
   rocket?: Content;
-  constructor() { }
+  constructor(private messageService: MessagesService) { }
 
   ngOnInit(): void {
   }
@@ -26,10 +27,12 @@ export class ModifyContentComponentComponent implements OnInit {
       imgURL: imgURL
     }
     this.newRocketEvent.emit(this.rocket);
+    this.messageService.add('Added ' + this.rocket.title);
   }
 
-  updateRocket(title: string, description: string, creator: string, type: string, tags: string, imgURL: string){
+  updateRocket(id: string, title: string, description: string, creator: string, type: string, tags: string, imgURL: string){
     this.rocket ={
+      id: parseInt(id),
       title: title,
       description : description,
       creator: creator,
@@ -38,6 +41,7 @@ export class ModifyContentComponentComponent implements OnInit {
       imgURL: imgURL
     }
     this.updateRocketEvent.emit(this.rocket);
+    this.messageService.add('Updated ' + this.rocket.id);
   }
 
 }

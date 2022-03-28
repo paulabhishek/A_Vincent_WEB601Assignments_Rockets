@@ -17,7 +17,25 @@ export class ContentListComponent implements OnInit {
 
 
   ngOnInit(): void {
+    this.getRocketFromServer();
     this.rocketService.getContentObs().subscribe(array=>this.rockets=array);
+  }
+
+  getRocketFromServer(): void{
+    this.rocketService.getContent().subscribe(rocketArray => this.rockets = rocketArray);
+  }
+  addRocketToList(newRocketFromChild : Content): void{
+    this.rocketService.addContent(newRocketFromChild).subscribe(newContentFromServer =>{
+      console.log("Content from server: ", newContentFromServer);
+      this.rockets.push(newContentFromServer);
+      this.rockets = [...this.rockets];
+    })
+  }
+  updateRocketInList(contentItem: Content): void{
+    this.rocketService.updateContent(contentItem).subscribe(()=>{
+      console.log('Updated content title, id' + contentItem.title + contentItem.id);
+      this.getRocketFromServer();
+    })
   }
   titleFilter(input: string): any{
     //console.log(input);

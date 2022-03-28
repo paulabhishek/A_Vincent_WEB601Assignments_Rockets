@@ -13,7 +13,7 @@ export class InMemoryDataService {
     const content: Content[] = ROCKETS;
     return {content};
   }
-  GenId(content: Content[]): number{
+  genId(content: Content[]): number{
     return content.length > 0 ?
       Math.max(...content.map(c => c.id ?? 0)) +1 : 2000;
   }
