@@ -23,7 +23,7 @@ export class RocketService {
   }
 
   getIdContent(id: any): Observable<Content>{
-    const message = ROCKETS[id];
+    //const message = ROCKETS[id];
     if (id < ROCKETS.length ){
       this.messagesService.add("Content array loaded!");
       //this.messagesService.add('Content item at ID: ' + (message.id-1));
@@ -36,12 +36,14 @@ export class RocketService {
   }
 
   addContent(newContentItem: Content): Observable<Content>{
-    return this.http.post<Content>("api/content", newContentItem, this.httpOptions);
     console.log('Adding new content', newContentItem);
-    this.messagesService.add('Adding new content' + newContentItem);
+    //this.messagesService.add('Adding new content' + newContentItem);
+    return this.http.post<Content>("api/content", newContentItem, this.httpOptions);
+
   }
 
   updateContent(contentItem: Content): Observable<any>{
+    console.log('Updating...', contentItem);
     return this.http.put("api/content", contentItem, this.httpOptions);
   }
 }

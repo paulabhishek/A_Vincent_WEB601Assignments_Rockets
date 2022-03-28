@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="fixing bugs">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="added code to add content to the content list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/content-list/content-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/modify-content-component/modify-content-component.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/in-memory-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/in-memory-data.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/services/rocket.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +62,7 @@
       <workItem from="1647052752118" duration="597000" />
       <workItem from="1647178072982" duration="19102000" />
       <workItem from="1648399125094" duration="13342000" />
-      <workItem from="1648418000981" duration="8743000" />
-    </task>
-    <task id="LOCAL-00003" summary="changed json version to 0.03">
-      <created>1644727823330</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1644727823330</updated>
+      <workItem from="1648418000981" duration="9818000" />
     </task>
     <task id="LOCAL-00004" summary="changed json version to 0.03">
       <created>1644767469665</created>
@@ -410,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648413355399</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="added code to add content to the content list">
+      <created>1648427792030</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1648427792031</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +473,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixed search function issue" />
     <MESSAGE value="changed version" />
     <MESSAGE value="Removed image URL and added default image" />
     <MESSAGE value="Created directive Hover-Affect" />
@@ -501,6 +497,7 @@
     <MESSAGE value="created database service, added input fields to html. used emitters to emit content-list" />
     <MESSAGE value="added new http service" />
     <MESSAGE value="fixing bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing bugs" />
+    <MESSAGE value="added code to add content to the content list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code to add content to the content list" />
   </component>
 </project>

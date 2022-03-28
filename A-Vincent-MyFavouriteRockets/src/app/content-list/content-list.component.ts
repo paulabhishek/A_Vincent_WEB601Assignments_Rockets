@@ -33,7 +33,7 @@ export class ContentListComponent implements OnInit {
   }
   updateRocketInList(contentItem: Content): void{
     this.rocketService.updateContent(contentItem).subscribe(()=>{
-      console.log('Updated content title, id' + contentItem.title + contentItem.id);
+      console.log('Updated content title:' + contentItem.title + ' id:'+ contentItem.id);
       this.getRocketFromServer();
     })
   }
