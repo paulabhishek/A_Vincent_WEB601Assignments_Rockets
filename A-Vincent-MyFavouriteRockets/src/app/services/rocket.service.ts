@@ -27,7 +27,7 @@ export class RocketService {
     if (id < ROCKETS.length ){
       this.messagesService.add("Content array loaded!");
       //this.messagesService.add('Content item at ID: ' + (message.id-1));
-      console.log(ROCKETS);
+      console.log(ROCKETS[id]);
     } else{
       console.log("Failed !");
       this.messagesService.add('Content not available');
