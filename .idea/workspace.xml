@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Bonus">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="Bonus" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,34 +59,7 @@
       <workItem from="1647178072982" duration="19102000" />
       <workItem from="1648399125094" duration="13342000" />
       <workItem from="1648418000981" duration="16166000" />
-    </task>
-    <task id="LOCAL-00009" summary="pipe method complete">
-      <created>1644795570917</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1644795570917</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Altered HTML">
-      <created>1644797913555</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1644797913555</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Altered HTML">
-      <created>1644798983473</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1644798983473</updated>
-    </task>
-    <task id="LOCAL-00012" summary="CSS added to cards">
-      <created>1644803012392</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1644803012392</updated>
+      <workItem from="1648918339116" duration="300000" />
     </task>
     <task id="LOCAL-00013" summary="search function added">
       <created>1644810729194</created>
@@ -405,7 +376,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648437887649</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Bonus">
+      <created>1648918363462</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1648918363462</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Bonus">
+      <created>1648918462347</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1648918462347</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Bonus">
+      <created>1648918471432</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1648918471432</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Bonus">
+      <created>1648918500360</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1648918500360</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
