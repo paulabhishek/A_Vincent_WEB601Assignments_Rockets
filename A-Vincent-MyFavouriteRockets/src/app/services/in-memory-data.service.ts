@@ -6,7 +6,6 @@ import {ROCKETS} from "../helper-files/contentDb";
   providedIn: 'root'
 })
 export class InMemoryDataService {
-//dd
   constructor() { }
 
   createDb(){
