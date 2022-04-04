@@ -13,6 +13,16 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { ModifyContentComponentComponent } from './modify-content-component/modify-content-component.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+import {MatChipsModule} from "@angular/material/chips";
+
+
+
 
 @NgModule({
   declarations: [
@@ -23,6 +33,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HoverAffectDirective,
     AppMessagesComponent,
     ModifyContentComponentComponent
+
   ],
   imports: [
     BrowserModule,
@@ -31,7 +42,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       dataEncapsulation: false,
       delay: 2000
     }),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatInputModule,
+    MatDialogModule,
+    MatCardModule,
+    MatTooltipModule,
+    MatBadgeModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

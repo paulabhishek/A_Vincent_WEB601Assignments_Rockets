@@ -1,5 +1,10 @@
-<input placeholder="Seed card by ID" #id>
-<button (click)="btn(id.value)">Search</button>
+<mat-form-field>
+  <mat-label for="id" >Seed card by ID</mat-label>
+  <input matInput name="id" type="number" #id>
+</mat-form-field>
+<button mat-raised-button  (click)="btn(id.value)">Search</button>
+<!--<input placeholder="Seed card by ID" #id>-->
+<!--<button (click)="btn(id.value)">Search</button>-->
 <app-app-messages></app-app-messages>
 <app-content-card class="shadow" [rockets]="getIdContent"></app-content-card>
 <app-content-list></app-content-list>

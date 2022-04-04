@@ -1,25 +1,65 @@
+<h3>Add a new rocket</h3>
+<form action="#">
+  <mat-form-field>
+    <mat-label>ID</mat-label>
+    <input matInput disabled #id>
+  </mat-form-field><br>
 
-<label for="id" >ID: </label>
-<input id="id" name="id" type="text" #id>
-<br><br>
-<label for="title" >Title: </label>
-<input id="title" name="title" type="text" #title>
-<br><br>
-<label for="description">Description: </label>
-<input type="text" id="description" name="description" #description>
-<br><br>
-<label for="creator">Creator: </label>
-<input type="text" id="creator" name="creator" #creator>
-<br><br>
-<label for="type">Type: </label>
-<input type="text" id="type" name="type" #type>
-<br><br>
-<label for="tags">Tags: </label>
-<input type="text" id="tags" name="tags" #tags>
-<br><br>
-<label for="imgURL">Image URL: </label>
-<input type="text" id="imgURL" name="imgURL" #imgURL>
-<br><br>
-<button (click)="addRocket(title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" type="button">Add content</button><br><br>
-<button (click)="updateRocket(id.value, title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" type="button">Update content</button>
-(Should be used only when ID field is entered)
+  <mat-form-field>
+    <mat-label>Title</mat-label>
+    <input matInput #title>
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <mat-label>Description</mat-label>
+    <input matInput #description>
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <mat-label>Creator</mat-label>
+    <input matInput #creator>
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <mat-label>Type</mat-label>
+    <input matInput #type>
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <mat-label>Tags</mat-label>
+    <input matInput #tags>
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <mat-label>Image URL</mat-label>
+    <input matInput #imgURL>
+  </mat-form-field><br>
+  <button (click)="addRocket(title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" mat-raised-button>Add new content</button>
+  <button (click)="updateRocket(id.value, title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" mat-raised-button>Close</button>
+</form>
+
+
+<!--<label for="id" >ID: </label>-->
+<!--<input id="id" name="id" type="text" #id>-->
+<!--<br><br>-->
+<!--<label for="title" >Title: </label>-->
+<!--<input id="title" name="title" type="text" #title>-->
+<!--<br><br>-->
+<!--<label for="description">Description: </label>-->
+<!--<input type="text" id="description" name="description" #description>-->
+<!--<br><br>-->
+<!--<label for="creator">Creator: </label>-->
+<!--<input type="text" id="creator" name="creator" #creator>-->
+<!--<br><br>-->
+<!--<label for="type">Type: </label>-->
+<!--<input type="text" id="type" name="type" #type>-->
+<!--<br><br>-->
+<!--<label for="tags">Tags: </label>-->
+<!--<input type="text" id="tags" name="tags" #tags>-->
+<!--<br><br>-->
+<!--<label for="imgURL">Image URL: </label>-->
+<!--<input type="text" id="imgURL" name="imgURL" #imgURL>-->
+<!--<br><br>-->
+<!--<button (click)="addRocket(title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" type="button">Add content</button><br><br>-->
+<!--<button (click)="updateRocket(id.value, title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" type="button">Update content</button>-->
+<!--(Should be used only when ID field is entered)-->

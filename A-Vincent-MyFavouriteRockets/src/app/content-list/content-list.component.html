@@ -8,11 +8,14 @@
 </app-modify-content-component>
 
 <div class="search-box">
-  <h1>Search by title</h1>
-  <input type="text" placeholder="Enter title" #searchBox>
-  <button (click)=titleFilter(searchBox.value)>Submit</button>
+  <mat-form-field>
+    <mat-label for="search">Search by title</mat-label>
+    <input matInput type="text" placeholder="Enter title" #searchBox>
+  </mat-form-field>
+  <button mat-raised-button (click)=titleFilter(searchBox.value)>Submit</button>
   <p *ngIf="result == 'Found'" class="found">{{ result }}</p>
   <p *ngIf="result == 'Not Found'" class="not-found">{{ result }} </p>
+
 </div>
 
 

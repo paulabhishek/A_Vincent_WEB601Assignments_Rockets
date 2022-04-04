@@ -4,7 +4,6 @@
   display: block;
   margin: 0 0 0 40px;
   padding: 0 30px 0 30px ;
-  margin: 20px 20px 20px 20px;
   background-color: rgb(116, 136, 156);
 }
 
@@ -17,3 +16,11 @@
 :host.is-first{
   border: 5px solid rgb(12, 145, 155);
 }
+
+.container{
+  background-color: azure;
+
+
+}
+
+

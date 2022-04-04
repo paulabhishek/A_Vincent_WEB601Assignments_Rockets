@@ -1,6 +1,7 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {Content} from "../helper-files/content-interface";
 import { MessagesService } from "../services/messages.service";
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 
 @Component({
@@ -16,6 +17,8 @@ export class ModifyContentComponentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
 
   addRocket(title: string, description: string, creator: string, type: string, tags: string, imgURL: string){
     this.rocket ={

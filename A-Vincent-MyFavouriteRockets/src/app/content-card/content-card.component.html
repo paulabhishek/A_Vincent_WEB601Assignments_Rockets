@@ -1,22 +1,21 @@
-<div class="container">
-  <h1>Title: {{ rockets?.title }}</h1>
-  <div><b>Description: </b> {{ rockets ? rockets.description : '' }}</div>
-  <br />
-  <div><b>Creator:</b> {{ rockets?.creator }}</div>
-  <br />
-  <div appHoverAffect line="underline">
-    <b *ngIf="rockets?.type">Type:</b> {{ rockets?.type }}
-  </div>
-  <br />
-
-  <div>
-    <b *ngIf="rockets?.tags">Tags:</b
-    ><span appHoverAffect weight="bold" *ngFor="let tags of rockets?.tags">{{
-    ' ' + tags + ','
-    }}</span>
-  </div>
-  <br />
-
+<mat-card class="container">
+  <mat-card-header>
+    <mat-card-title>Title: {{rockets?.title}}</mat-card-title><br>
+  </mat-card-header>
+  <mat-card-content>
+    <div><b>Description: </b> {{ rockets ? rockets.description : '' }}</div>
+    <br />
+    <div><b>Creator:</b> {{ rockets?.creator }}</div>
+    <br />
+    <div appHoverAffect line="underline">
+      <b *ngIf="rockets?.type">Type:</b> {{ rockets?.type }}
+    </div>
+    <br />
+    <div>
+      <b *ngIf="rockets?.tags">Tags:</b>
+      <span appHoverAffect weight="bold" *ngFor="let tags of rockets?.tags">{{' ' + tags + ','}}</span>
+    </div>
+  </mat-card-content>
   <div>
     <img
       class="img"
@@ -26,13 +25,60 @@
       (click)="console()"
     />
   </div>
-  <div>
-    <img
-      class="img"
-      *ngIf="!rockets?.imgURL"
-      alt="default-image"
-      src="https://www.femtoscientific.com/wp-content/uploads/2014/12/default_image_01.png"
-      (click)="console()"
-    />
-  </div>
-</div>
+  <img mat-card-image
+    class="img"
+    *ngIf="!rockets?.imgURL"
+    alt="default-image"
+    src="https://www.femtoscientific.com/wp-content/uploads/2014/12/default_image_01.png"
+    (click)="console()"
+  />
+
+
+</mat-card>
+
+
+
+
+
+
+
+
+
+<!--<div class="container">-->
+<!--  <h1>Title: {{ rockets?.title }}</h1>-->
+<!--  <div><b>Description: </b> {{ rockets ? rockets.description : '' }}</div>-->
+<!--  <br />-->
+<!--  <div><b>Creator:</b> {{ rockets?.creator }}</div>-->
+<!--  <br />-->
+<!--  <div appHoverAffect line="underline">-->
+<!--    <b *ngIf="rockets?.type">Type:</b> {{ rockets?.type }}-->
+<!--  </div>-->
+<!--  <br />-->
+
+<!--  <div>-->
+<!--    <b *ngIf="rockets?.tags">Tags:</b-->
+<!--    ><span appHoverAffect weight="bold" *ngFor="let tags of rockets?.tags">{{-->
+<!--    ' ' + tags + ','-->
+<!--    }}</span>-->
+<!--  </div>-->
+<!--  <br />-->
+
+<!--  <div>-->
+<!--    <img-->
+<!--      class="img"-->
+<!--      *ngIf="rockets?.imgURL"-->
+<!--      alt="rocket images"-->
+<!--      [src]="rockets?.imgURL"-->
+<!--      (click)="console()"-->
+<!--    />-->
+<!--  </div>-->
+<!--  <div>-->
+<!--    <img-->
+<!--      class="img"-->
+<!--      *ngIf="!rockets?.imgURL"-->
+<!--      alt="default-image"-->
+<!--      src="https://www.femtoscientific.com/wp-content/uploads/2014/12/default_image_01.png"-->
+<!--      (click)="console()"-->
+<!--    />-->
+<!--  </div>-->
+<!--</div>-->
