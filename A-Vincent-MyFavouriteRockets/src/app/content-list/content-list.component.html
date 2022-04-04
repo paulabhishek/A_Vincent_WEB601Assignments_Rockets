@@ -2,10 +2,12 @@
 <!--<app-content-card *ngFor="let item of rockets; index as i; first as isFirst"-->
 <!--                  [rockets]="item" [class.is-first]="isFirst" ></app-content-card>-->
 
-<app-modify-content-component (newRocketEvent)="addRocketToList($event)" (updateRocketEvent)="updateRocketInList($event)">
+<br><app-modify-content-component (newRocketEvent)="addRocketToList($event)" (updateRocketEvent)="updateRocketInList($event)">
 
 
 </app-modify-content-component>
+
+
 
 <div class="search-box">
   <mat-form-field>

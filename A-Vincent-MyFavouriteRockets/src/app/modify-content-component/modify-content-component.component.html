@@ -1,5 +1,5 @@
-<h3>Add a new rocket</h3>
-<form action="#">
+<h3 mat-dialog-title>Add a new rocket</h3>
+<div mat-dialog-content>
   <mat-form-field>
     <mat-label>ID</mat-label>
     <input matInput disabled #id>
@@ -34,9 +34,10 @@
     <mat-label>Image URL</mat-label>
     <input matInput #imgURL>
   </mat-form-field><br>
-  <button (click)="addRocket(title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" mat-raised-button>Add new content</button>
-  <button (click)="updateRocket(id.value, title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" mat-raised-button>Close</button>
-</form>
+</div>
+<button (click)="addRocket(title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" mat-raised-button>Add new content</button>
+<button (click)="updateRocket(id.value, title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" mat-raised-button>Close</button>
+
 
 
 <!--<label for="id" >ID: </label>-->

@@ -6,7 +6,7 @@ import { ContentListComponent } from './content-list/content-list.component';
 import { FilterTypePipe } from './filter-type.pipe';
 import { HoverAffectDirective } from './hover-affect.directive';
 import { AppMessagesComponent } from './app-messages/app-messages.component';
-import { FormsModule } from '@angular/forms';
+
 import { HttpClientModule } from '@angular/common/http';
 import { InMemoryDataService } from './services/in-memory-data.service';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -20,6 +20,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import {MatChipsModule} from "@angular/material/chips";
+import { DialogComponent } from './dialog/dialog.component';
 
 
 
@@ -32,7 +33,8 @@ import {MatChipsModule} from "@angular/material/chips";
     FilterTypePipe,
     HoverAffectDirective,
     AppMessagesComponent,
-    ModifyContentComponentComponent
+    ModifyContentComponentComponent,
+    DialogComponent
 
   ],
   imports: [
