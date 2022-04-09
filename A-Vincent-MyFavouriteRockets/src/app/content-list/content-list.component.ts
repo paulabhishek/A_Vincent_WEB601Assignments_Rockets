@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Content} from "../helper-files/content-interface";
 import {RocketService} from "../services/rocket.service";
 
+
 @Component({
   selector: 'app-content-list',
   templateUrl: './content-list.component.html',
@@ -24,13 +25,13 @@ export class ContentListComponent implements OnInit {
   getRocketFromServer(): void{
     this.rocketService.getContent().subscribe(rocketArray => this.rockets = rocketArray);
   }
-  addRocketToList(newRocketFromChild : Content): void{
-    this.rocketService.addContent(newRocketFromChild).subscribe(newContentFromServer =>{
-      console.log("Content from server: ", newContentFromServer);
-      this.rockets.push(newContentFromServer);
-      this.rockets = [...this.rockets];
-    })
-  }
+  // addRocketToList(newRocketFromChild : Content): void{
+  //   this.rocketService.addContent(newRocketFromChild).subscribe(newContentFromServer =>{
+  //     console.log("Content from server: ", newContentFromServer);
+  //     this.rockets.push(newContentFromServer);
+  //     this.rockets = [...this.rockets];
+  //   })
+  // }
   updateRocketInList(contentItem: Content): void{
     this.rocketService.updateContent(contentItem).subscribe(()=>{
       console.log('Updated content title:' + contentItem.title + ' id:'+ contentItem.id);
@@ -57,5 +58,4 @@ export class ContentListComponent implements OnInit {
       }
     }
   }
-
 }
