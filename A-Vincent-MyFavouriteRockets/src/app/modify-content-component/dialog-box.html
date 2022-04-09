@@ -38,5 +38,5 @@
 </div>
 <button (click)="addRocket(title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" [mat-dialog-close]="{ newContent: data}" mat-raised-button>Add new content</button>
 <!--<button (click)="updateRocket(id.value, title.value, description.value, creator.value, imgURL.value, type.value, tags.value)" mat-raised-button>Close</button>-->
-<button mat-raised-button matDialogClose="close">Close</button>
+<button mat-raised-button (click)="close()">Close</button>
 

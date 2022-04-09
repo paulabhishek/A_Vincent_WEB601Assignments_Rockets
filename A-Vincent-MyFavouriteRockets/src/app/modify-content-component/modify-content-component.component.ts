@@ -59,10 +59,7 @@ export class ModifyContentComponentComponent implements OnInit {
       this.addRocketToList(this.newContent);
     })
   }
-  getEvent(event: Content){
-    console.log(event);
 
-  }
 
   // addRocket(title: string, description: string, creator: string, type: string, tags: string, imgURL: string){
   //   this.rocket ={
@@ -147,5 +144,8 @@ constructor(private messageService: MessagesService, public dialogRef: MatDialog
     this.newRocketEvent.emit(this.rocket);
     this.messageService.add('Added ' + this.rocket.title);
     //this.dialogRef.close();
+  }
+  close(){
+    this.dialogRef.close();
   }
 }
