@@ -18,7 +18,7 @@ export interface DialogData {
   styleUrls: ['./modify-content-component.component.css']
 })
 export class ModifyContentComponentComponent implements OnInit {
-  //@Output() newRocketEvent: EventEmitter<Content> = new EventEmitter<Content>();
+  @Output() newRocketEvent: EventEmitter<Content> = new EventEmitter<Content>();
   @Input() newContent: Content = {
     title: "", description: '', creator: '', type: undefined
   };
@@ -40,8 +40,10 @@ export class ModifyContentComponentComponent implements OnInit {
   }
 
   addRocketToList(newRocketFromChild : Content): void{
+    console.log(newRocketFromChild);
     this.rocketService.addContent(newRocketFromChild).subscribe(newContentFromServer =>{
       console.log("Content from server: ", newContentFromServer);
+      this.messageService.add('Content from server ' + newContentFromServer.title);
       this.rockets.push(newContentFromServer);
       this.rockets = [...this.rockets];
     })
@@ -52,11 +54,14 @@ export class ModifyContentComponentComponent implements OnInit {
       width: '300px',
       data: this.newContent,
 
+
     });
-    dialogRef.afterClosed().subscribe((result: DialogData)=>{
-      console.log('The dialog was closed', result);
-      this.newContent = result.newContent;
+    dialogRef.afterClosed().subscribe((info: DialogData)=>{
+      console.log(info);
+      console.log('The dialog was closed', info);
+      this.newContent = info.newContent;
       this.addRocketToList(this.newContent);
+      this.newRocketEvent.emit(this.newContent);
     })
   }
 
