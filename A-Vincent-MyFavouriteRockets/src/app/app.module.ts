@@ -26,6 +26,8 @@ import {NgModule} from "@angular/core";
 // import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {FormsModule} from "@angular/forms";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatDividerModule} from "@angular/material/divider";
 
 
 @NgModule({
@@ -55,7 +57,9 @@ import {FormsModule} from "@angular/forms";
     MatTooltipModule,
     MatBadgeModule,
     MatChipsModule,
-    FormsModule
+    FormsModule,
+    MatProgressBarModule,
+    MatDividerModule
   ],
   providers: [
   //   {
