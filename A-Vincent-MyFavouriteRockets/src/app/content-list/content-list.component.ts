@@ -39,7 +39,7 @@ export class ContentListComponent implements OnInit {
       console.log('Updated content title:' + contentItem.title + ' id:'+ contentItem.id);
       this.getRocketFromServer();
     })
-  }
+  } //
   titleFilter(input: string): any{
     //console.log(input);
     for (let i=0; i<=7; i++ ){
