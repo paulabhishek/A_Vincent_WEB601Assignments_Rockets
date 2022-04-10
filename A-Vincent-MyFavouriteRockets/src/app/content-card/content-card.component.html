@@ -15,7 +15,7 @@
       <b *ngIf="rockets?.tags">Tags:</b>
       <span appHoverAffect weight="bold" *ngFor="let tags of rockets?.tags">{{' ' + tags + ','}}</span>
     </div>
-  </mat-card-content>
+
   <div>
     <img
       class="img"
@@ -25,6 +25,7 @@
       (click)="console()"
     />
   </div>
+
   <img mat-card-image
     class="img"
     *ngIf="!rockets?.imgURL"
@@ -32,8 +33,8 @@
     src="https://www.femtoscientific.com/wp-content/uploads/2014/12/default_image_01.png"
     (click)="console()"
   />
-
-
+<!--    <br><app-modify-content-component (newRocketEvent)="addRocketToList($event)"></app-modify-content-component>-->
+  </mat-card-content>
 </mat-card>
 
 
