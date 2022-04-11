@@ -14,7 +14,7 @@ export class ContentDetailComponent implements OnInit {
   id?:number;
   rocket?: Content;
 
-  constructor(private route: ActivatedRoute, private rocketService: RocketService) { }
+  constructor(private route: ActivatedRoute, private rocketService: RocketService, private messageService: MessagesService) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
@@ -22,6 +22,7 @@ export class ContentDetailComponent implements OnInit {
       this.rocketService.getIdContent(this.id).subscribe(
         (c) =>{
           this.rocket = c;
+          this.messageService.add('Loading ' +this.rocket.title + ' at ID ' +this.rocket.id);
         }
       );
     });

@@ -32,6 +32,7 @@ import { ContentDetailComponent } from './content-detail/content-detail.componen
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import {MatButtonToggleModule} from "@angular/material/button-toggle";
 import { AppRoutingModule } from './app-routing.module';
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { AppRoutingModule } from './app-routing.module';
     MatProgressBarModule,
     MatDividerModule,
     MatButtonToggleModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule
   ],
   providers: [
   //   {

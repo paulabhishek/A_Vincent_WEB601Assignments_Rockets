@@ -3,8 +3,8 @@
     <mat-card-title>Title: {{rockets?.title}}</mat-card-title><br>
   </mat-card-header>
   <mat-card-content>
-    <div><b>Description: </b> {{ rockets ? rockets.description : '' }}</div>
-    <br />
+<!--    <div><b>Description: </b> {{ rockets ? rockets.description : '' }}</div>-->
+<!--    <br />-->
     <div><b>Creator:</b> {{ rockets?.creator }}</div>
     <br />
     <div appHoverAffect line="underline">
@@ -35,6 +35,14 @@
   />
 <!--    <br><app-modify-content-component (newRocketEvent)="addRocketToList($event)"></app-modify-content-component>-->
   </mat-card-content>
+
+  <mat-card-actions>
+    <a [routerLink]="['/list', rockets?.id ?? 0]" routerLinkActive="active">
+
+        <mat-icon class="icon-display" aria-hidden="false" aria-label="Example home icon" color="accent">info</mat-icon>
+
+    </a>
+  </mat-card-actions>
 </mat-card>
 
 
