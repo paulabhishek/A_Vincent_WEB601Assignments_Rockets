@@ -8,17 +8,21 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const  routes: Routes = [
   {
     path: "",
-    redirectTo: "/content",
+    redirectTo: "/list",
     pathMatch: "full"
   },
   {
-    path: "content",
+    path: "list",
+    component: ContentListComponent
+  },
+  {
+    path: "list/:id",
     component: ContentDetailComponent
-  }
-  // {
-  //   path: "**",
-  //   component: PageNotFoundComponent
-  // },
+  },
+  {
+    path: "**",
+    component: PageNotFoundComponent
+  },
 ]
 
 @NgModule({
