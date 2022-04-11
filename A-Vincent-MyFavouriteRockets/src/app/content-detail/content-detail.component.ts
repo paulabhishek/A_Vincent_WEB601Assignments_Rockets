@@ -22,7 +22,7 @@ export class ContentDetailComponent implements OnInit {
       this.rocketService.getIdContent(this.id).subscribe(
         (c) =>{
           this.rocket = c;
-          this.messageService.add('Loading ' +this.rocket.title + ' at ID ' +this.rocket.id);
+          this.messageService.add('Loading.. ' +this.rocket.title + ' at ID ' +this.rocket.id);
         }
       );
     });
