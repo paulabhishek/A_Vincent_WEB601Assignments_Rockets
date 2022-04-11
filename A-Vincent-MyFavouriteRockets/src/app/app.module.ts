@@ -30,6 +30,7 @@ import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatDividerModule} from "@angular/material/divider";
 import { ContentDetailComponent } from './content-detail/content-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {MatButtonToggleModule} from "@angular/material/button-toggle";
 
 
 @NgModule({
@@ -63,7 +64,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MatChipsModule,
     FormsModule,
     MatProgressBarModule,
-    MatDividerModule
+    MatDividerModule,
+    MatButtonToggleModule
   ],
   providers: [
   //   {

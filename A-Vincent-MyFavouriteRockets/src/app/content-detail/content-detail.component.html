@@ -1,1 +1,38 @@
-<p>content-detail works!</p>
+<mat-card class="container">
+  <mat-card-header>
+    <mat-card-title>Title: {{rocket?.title}}</mat-card-title><br>
+  </mat-card-header>
+  <mat-card-content>
+    <div><b>Description: </b> {{ rocket ? rocket.description : '' }}</div>
+    <br />
+    <div><b>Creator:</b> {{ rocket?.creator }}</div>
+    <br />
+    <div appHoverAffect line="underline">
+      <b *ngIf="rocket?.type">Type:</b> {{ rocket?.type }}
+    </div>
+    <br />
+    <div>
+      <b *ngIf="rocket?.tags">Tags:</b>
+      <span appHoverAffect weight="bold" *ngFor="let tags of rocket?.tags">{{' ' + tags + ','}}</span>
+    </div>
+
+    <div>
+      <img
+        class="img"
+        *ngIf="rocket?.imgURL"
+        alt="rocket images"
+        [src]="rocket?.imgURL"
+      />
+    </div>
+
+    <img mat-card-image
+         class="img"
+         *ngIf="!rocket?.imgURL"
+         alt="default-image"
+         src="https://www.femtoscientific.com/wp-content/uploads/2014/12/default_image_01.png"/>
+         //(click)="console()" />
+    <!--    <br><app-modify-content-component (newRocketEvent)="addRocketToList($event)"></app-modify-content-component>-->
+  </mat-card-content>
+</mat-card>
+
+
