@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="committing because of this error&#10;Repository is not clean. Please commit or stash any changes before updating.&#10;while running: ng update @angular/cdk @angular/cli @angular/core&#10;               @angular/material">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="debugging error error: Invalid version: &quot;15.2-15.3&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,14 +68,7 @@
       <workItem from="1648998315097" duration="3173000" />
       <workItem from="1649631235094" duration="23000" />
       <workItem from="1650208668945" duration="34000" />
-      <workItem from="1650208889173" duration="6702000" />
-    </task>
-    <task id="LOCAL-00017" summary="changed version">
-      <created>1645332513571</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1645332513571</updated>
+      <workItem from="1650208889173" duration="7377000" />
     </task>
     <task id="LOCAL-00018" summary="Removed image URL and added default image">
       <created>1645403928284</created>
@@ -414,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650213524558</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="debugging error error: Invalid version: &quot;15.2-15.3&quot;">
+      <created>1650215760953</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1650215760953</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added directives to tag and type - debugging" />
     <MESSAGE value="onMouseEnter onMouseLeave functions issue fixed" />
     <MESSAGE value="Bonus mark - adding border" />
     <MESSAGE value="Bonus mark - adding border -nogo" />
@@ -505,6 +503,7 @@
     <MESSAGE value="installed angular material" />
     <MESSAGE value="ng add @angular/pwa" />
     <MESSAGE value="committing because of this error&#10;Repository is not clean. Please commit or stash any changes before updating.&#10;while running: ng update @angular/cdk @angular/cli @angular/core&#10;               @angular/material" />
-    <option name="LAST_COMMIT_MESSAGE" value="committing because of this error&#10;Repository is not clean. Please commit or stash any changes before updating.&#10;while running: ng update @angular/cdk @angular/cli @angular/core&#10;               @angular/material" />
+    <MESSAGE value="debugging error error: Invalid version: &quot;15.2-15.3&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugging error error: Invalid version: &quot;15.2-15.3&quot;" />
   </component>
 </project>
