@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="debugging error error: Invalid version: &quot;15.2-15.3&quot;">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="fixed error: Invalid version: &quot;15.2-15.3&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

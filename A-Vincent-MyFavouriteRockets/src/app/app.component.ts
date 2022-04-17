@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {Content} from "./helper-files/content-interface";
 import {RocketService} from "./services/rocket.service";
+import {LogUpdateService} from "./log-update.service";
 
 @Component({
   selector: 'app-root',
@@ -10,8 +11,10 @@ import {RocketService} from "./services/rocket.service";
 export class AppComponent {
   title = 'A-Vincent-MyFavouriteRockets';
   getIdContent?: Content;
-  constructor(private rocketService: RocketService ){}
-  ngOnInit(): void {}
+  constructor(private rocketService: RocketService, private logService: LogUpdateService){}
+  ngOnInit(): void {
+    this.logService.init();
+  }
 
   btn(id:any) {
     this.rocketService.getIdContent(id).subscribe((getContent: any) => this.getIdContent = getContent);
