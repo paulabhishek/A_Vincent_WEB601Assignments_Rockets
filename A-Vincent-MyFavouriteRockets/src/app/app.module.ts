@@ -33,6 +33,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import {MatButtonToggleModule} from "@angular/material/button-toggle";
 import { AppRoutingModule } from './app-routing.module';
 import {MatIconModule} from "@angular/material/icon";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,13 @@ import {MatIconModule} from "@angular/material/icon";
     MatDividerModule,
     MatButtonToggleModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [
   //   {
