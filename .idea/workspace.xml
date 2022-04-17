@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="committing because of this error&#10;Repository is not clean. Please commit or stash any changes before updating.&#10;while running: ng update @angular/cdk @angular/cli @angular/core&#10;               @angular/material" />
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="committing because of this error&#10;Repository is not clean. Please commit or stash any changes before updating.&#10;while running: ng update @angular/cdk @angular/cli @angular/core&#10;               @angular/material">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\1998v\OneDrive- St. Clair College\WEB601-22W-001 Javascript 5 22 Winter\Week 12\Assignment 10\Assignment-10\A-Vincent-MyFavouriteRockets\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,14 +69,7 @@
       <workItem from="1648998315097" duration="3173000" />
       <workItem from="1649631235094" duration="23000" />
       <workItem from="1650208668945" duration="34000" />
-      <workItem from="1650208889173" duration="4321000" />
-    </task>
-    <task id="LOCAL-00016" summary="fixed search function issue">
-      <created>1644815926032</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1644815926032</updated>
+      <workItem from="1650208889173" duration="6702000" />
     </task>
     <task id="LOCAL-00017" summary="changed version">
       <created>1645332513571</created>
@@ -410,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650213304311</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="committing because of this error&#10;Repository is not clean. Please commit or stash any changes before updating.&#10;while running: ng update @angular/cdk @angular/cli @angular/core&#10;               @angular/material">
+      <created>1650213524558</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1650213524558</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
