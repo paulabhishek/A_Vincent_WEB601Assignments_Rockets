@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="fixed error: Invalid version: &quot;15.2-15.3&quot;">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="completed assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/log-update.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/log-update.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -70,13 +73,6 @@
       <workItem from="1649631235094" duration="23000" />
       <workItem from="1650208668945" duration="34000" />
       <workItem from="1650208889173" duration="7377000" />
-    </task>
-    <task id="LOCAL-00018" summary="Removed image URL and added default image">
-      <created>1645403928284</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1645403928284</updated>
     </task>
     <task id="LOCAL-00019" summary="Created directive Hover-Affect">
       <created>1645404326429</created>
@@ -414,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650215760953</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="added snack bar.">
+      <created>1650236203490</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1650236203490</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,8 +483,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="onMouseEnter onMouseLeave functions issue fixed" />
-    <MESSAGE value="Bonus mark - adding border" />
     <MESSAGE value="Bonus mark - adding border -nogo" />
     <MESSAGE value="version number changed" />
     <MESSAGE value="fixed search issues" />
@@ -505,6 +506,8 @@
     <MESSAGE value="ng add @angular/pwa" />
     <MESSAGE value="committing because of this error&#10;Repository is not clean. Please commit or stash any changes before updating.&#10;while running: ng update @angular/cdk @angular/cli @angular/core&#10;               @angular/material" />
     <MESSAGE value="debugging error error: Invalid version: &quot;15.2-15.3&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="debugging error error: Invalid version: &quot;15.2-15.3&quot;" />
+    <MESSAGE value="added snack bar." />
+    <MESSAGE value="completed assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed assignment" />
   </component>
 </project>

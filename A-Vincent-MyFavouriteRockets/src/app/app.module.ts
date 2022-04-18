@@ -35,6 +35,8 @@ import { AppRoutingModule } from './app-routing.module';
 import {MatIconModule} from "@angular/material/icon";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import {MatSnackBarModule} from "@angular/material/snack-bar";
+import {LogUpdateService} from "./log-update.service";
 
 @NgModule({
   declarations: [
@@ -53,6 +55,7 @@ import { environment } from '../environments/environment';
   imports: [
     BrowserModule,
     HttpClientModule,
+    MatSnackBarModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
       dataEncapsulation: false,
       delay: 2000
@@ -79,6 +82,7 @@ import { environment } from '../environments/environment';
     })
   ],
   providers: [
+    LogUpdateService
   //   {
   //   provide: MatDialogRef,
   //   useValue: {}
