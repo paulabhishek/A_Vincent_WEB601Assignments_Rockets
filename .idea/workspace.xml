@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="completed assignment">
+    <list default="true" id="b0128956-ac67-411d-8ecb-b6127f8be847" name="Changes" comment="completed bonus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/A-Vincent-MyFavouriteRockets/src/app/app.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\1998v\\OneDrive- St. Clair College\\WEB601-22W-001 Javascript 5 22 Winter\\Week 12\\Assignment 10\\Assignment-10\\A-Vincent-MyFavouriteRockets\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\1998v\\OneDrive- St. Clair College\\WEB601-22W-001 Javascript 5 22 Winter\\Week 12\\Assignment 10\\Assignment-10\\A-Vincent-MyFavouriteRockets\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,14 +72,8 @@
       <workItem from="1650208889173" duration="7377000" />
       <workItem from="1650243781606" duration="594000" />
       <workItem from="1650247017423" duration="1109000" />
-      <workItem from="1650291387526" duration="2463000" />
-    </task>
-    <task id="LOCAL-00020" summary="Added directives to tag and type">
-      <created>1645408919728</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1645408919728</updated>
+      <workItem from="1650291387526" duration="3238000" />
+      <workItem from="1650762630153" duration="4557000" />
     </task>
     <task id="LOCAL-00021" summary="Added directives to tag and type - fixed bugs">
       <created>1645410114202</created>
@@ -416,11 +411,29 @@
       <option name="project" value="LOCAL" />
       <updated>1650242334807</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="completed bonus">
+      <created>1650294442037</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1650294442037</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -482,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Bonus mark - adding border -nogo" />
     <MESSAGE value="version number changed" />
     <MESSAGE value="fixed search issues" />
     <MESSAGE value="created service and modified ContentList" />
@@ -507,6 +519,7 @@
     <MESSAGE value="debugging error error: Invalid version: &quot;15.2-15.3&quot;" />
     <MESSAGE value="added snack bar." />
     <MESSAGE value="completed assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed assignment" />
+    <MESSAGE value="completed bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed bonus" />
   </component>
 </project>
